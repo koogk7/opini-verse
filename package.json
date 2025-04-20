@@ -1,0 +1,35 @@
+{
+  "name": "opini-verse",
+  "version": "1.0.0",
+  "description": "AI 페르소나 댓글 서비스",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koogk7/opini-verse.git"
+  },
+  "keywords": [
+    "ai",
+    "comments",
+    "persona"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koogk7/opini-verse/issues"
+  },
+  "homepage": "https://github.com/koogk7/opini-verse#readme",
+  "dependencies": {
+    "@huggingface/inference": "^3.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
